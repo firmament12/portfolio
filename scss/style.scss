@@ -84,8 +84,18 @@ gallery --------*/
     font-size: 28px;
   }
 }
+.thumbnail {
+  
+}
 .thumbnail img {
   margin-bottom: 12px;
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+  @media (min-width: 768px) {
+    width: 280px;
+    height: 210px;
+  }
 }
 .text {
   text-align: left;
